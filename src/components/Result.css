@@ -1,0 +1,15 @@
+.result {
+  margin-top: 1rem;
+}
+
+.result a {
+  text-decoration: none;
+}
+
+.result p > a {
+  color: #202124;
+}
+
+.result a:hover {
+  text-decoration: underline;
+}

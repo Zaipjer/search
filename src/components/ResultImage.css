@@ -1,0 +1,29 @@
+.resultImage {
+  width: 179px;
+  height: 252px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  height: 180px;
+  width: 200px;
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.resultImage p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+  color: #70757a;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.resultImage > a:hover{
+    color: #70757a;
+}
